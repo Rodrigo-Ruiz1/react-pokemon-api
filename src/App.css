@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  background-image: url(https://external-preview.redd.it/ttWwMRs3N49_y4lDjcrQJLA2oJYi9Xw3YDWnfCSen4E.jpg?auto=webp&s=77cc46293cddc3fe8a21f48d3d973c47ff021289);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+#allPokemonDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#pokemonDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  background-color: white;
+  border-radius: 10%;
+}
